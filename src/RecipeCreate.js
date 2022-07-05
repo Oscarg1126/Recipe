@@ -35,26 +35,26 @@ function RecipeCreate({createRecipe}) {
          
           <tr>
             <td>
-              <input name="name" type="text" onChange={handleText} value={formData.name} placeHolder="Name" ></input>
+              <input name="name" type="text" onChange={handleText} value={formData.name} placeHolder="Name" required></input>
             </td>
             
  
             <td>
-              <input name="cuisine" type="text" onChange={handleText} value={formData.cuisine} placeholder="Cuisine" ></input>
+              <input name="cuisine" type="text" onChange={handleText} value={formData.cuisine} placeholder="Cuisine" required></input>
             </td>
             
           
             <td>
-              <input name="photo" type="url" onChange={handleText} value={formData.photo} placeholder="url" ></input>
+              <input name="photo" type="url" onChange={handleText} value={formData.photo} placeholder="url" required></input>
             </td>
             
           
             <td>
-              <textarea name="ingredients" onChange={handleText} value={formData.ingredients} placeholder="Ingredients"></textarea>
+              <textarea name="ingredients" onChange={handleText} value={formData.ingredients} placeholder="Ingredients" required></textarea>
             </td>
             
             <td>
-              <textarea name="preparation" onChange={handleText} value={formData.preparation} placeholder="Preparation" ></textarea>
+              <textarea name="preparation" onChange={handleText} value={formData.preparation} placeholder="Preparation" required></textarea>
             </td>
             
             <td>
